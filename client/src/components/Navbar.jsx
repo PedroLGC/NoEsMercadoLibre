@@ -1,6 +1,7 @@
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -23,9 +24,12 @@ const Left = styled.div`
   align-items: center;
 `;
 
-const Language = styled.span`
+const Inicio = styled.span`
   font-size: 14px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
   ${mobile({ display: "none" })}
 `;
 
@@ -49,7 +53,8 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "24px" })}
+  cursor: pointer;
+  ${mobile({ fontSize: "24px" })};
 `;
 const Right = styled.div`
   flex: 1;
@@ -75,9 +80,12 @@ const Navbar = () => {
             <Input placeholder="Search" />
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
+          <Inicio>Inicio</Inicio>
         </Left>
         <Center>
-          <Logo>NoEsMercadoLibre</Logo>
+          <Link to={"/"} style={{ textDecoration: "none", color: "black" }}>
+            <Logo>NoEsMercadoLibre</Logo>
+          </Link>
         </Center>
         <Right>
           <MenuItem>Registro</MenuItem>

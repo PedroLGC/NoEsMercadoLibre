@@ -1,23 +1,23 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://i.ibb.co/XsdmR2c/1.png",
+    img: "https://i.ibb.co/Zg5P5yn/front-dress.jpg",
     title: "SUMMER SALE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-    bg: "f5fafd",
+    desc: "NO COMPROMETAS TU ESTILO! OBTÉN HASTA UN 30% EN NUEVOS MODELOS.",
+    bg: "ffffff",
   },
   {
     id: 2,
     img: "https://i.ibb.co/DG69bQ4/2.png",
-    title: "AUTUMN COLLECTION",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "¡VAMOS A LA PLAYA!",
+    desc: "APROVECHA LAS OFERTAS EN BLOQUEADORES Y BRONCEADORES.",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/cXFnLLV/3.png",
-    title: "LOUNGEWEAR LOVE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    img: "https://i.ibb.co/tLhSwGG/PS5.png",
+    title: "EL NUEVO PS5",
+    desc: "¡¡¡YA ESTÁ EN STOCK. APROVECHA ANTES QUE SE ACABE!!!.",
     bg: "fbf0f4",
   },
 ];
@@ -31,13 +31,13 @@ export const categories = [
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2f%2Fac%2F2face7ee9788ccbb71e07c59fda2a74041547032.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_shortsleeve%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
     title: "Ropa caballero",
     cat: "hombre",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    img: "https://www.apple.com/v/iphone/home/bg/images/overview/hero/iphone_se_hero__gd586pazxqqa_medium.jpg",
     title: "Electrónica",
     cat: "electronica",
   },

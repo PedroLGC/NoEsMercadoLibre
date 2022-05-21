@@ -32,6 +32,7 @@ const Container = styled.div`
   justify-content: center;
   background-color: #f5fbfd;
   position: relative;
+  overflow: hidden;
 
   &:hover ${Info} {
     opacity: 1;
@@ -77,7 +78,7 @@ const Product = ({ item }) => {
           <ShoppingCartOutlined />
         </Icon>
         <Icon>
-          <Link to={`/product/${item._id}}`}>
+          <Link to={`/product/${item._id}`}>
             <SearchOutlined />
           </Link>
         </Icon>
