@@ -111,7 +111,7 @@ const Footer = () => {
           <ListItem>Carrito</ListItem>
           <ListItem>Ropa para hombre</ListItem>
           <ListItem>Ropa para mujer</ListItem>
-          <ListItem>Tecnología</ListItem>
+          <ListItem>Electrónica</ListItem>
           <ListItem>Mi cuenta</ListItem>
           <ListItem>Revisar ordenes</ListItem>
           <ListItem>Lista de deseo</ListItem>
