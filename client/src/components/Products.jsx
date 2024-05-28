@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { popularProducts } from "../data";
 import Product from "./Product";
-import axios from "axios";
 const Container = styled.div`
   padding: 20px;
   display: flex;
@@ -18,11 +17,16 @@ const Products = ({ cat, filters, sort }) => {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const res = await axios.get(
+        const res = await fetch(
           cat
             ? `http://localhost:5000/api/products?category=${cat}`
             : "http://localhost:5000/api/products"
         );
+        const data = await res.json();
+        setProducts(data);
+      } catch (error) {
+        throw new Error(error);
+      }
         setProducts(res.data);
       } catch (error) {}
     };
